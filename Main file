@@ -1,0 +1,18 @@
+#include"Product.h"
+ 
+int main() {
+  	Product p1;
+  	cout << " enter your Product details :" << endl;
+  	p1.accept();
+  	p1.display();
+  	Product p2;
+  	p2.accept();
+  	p2.display();
+  	Product p3;
+  	p3.accept();
+  	p3.display();
+ 
+  	cout << "total stock Value : Product 1 :" << p1.CalculateTotalvalue() << endl;
+  	cout << "total stock Value : Product 2 :" << p2.CalculateTotalvalue() << endl;
+  	cout << "total stock Value : Product 3 :" << p3.CalculateTotalvalue() << endl;
+}
